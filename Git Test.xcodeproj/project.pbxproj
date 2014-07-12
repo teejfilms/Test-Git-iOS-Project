@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3282E6B71971EE9A00D81BFF /* TJTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 3282E6B61971EE9A00D81BFF /* TJTest.m */; };
 		32B50346196109BF00E20602 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32B50345196109BF00E20602 /* Foundation.framework */; };
 		32B50348196109BF00E20602 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32B50347196109BF00E20602 /* CoreGraphics.framework */; };
 		32B5034A196109BF00E20602 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32B50349196109BF00E20602 /* UIKit.framework */; };
@@ -34,6 +35,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3282E6B51971EE9A00D81BFF /* TJTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TJTest.h; path = ../TJTest.h; sourceTree = "<group>"; };
+		3282E6B61971EE9A00D81BFF /* TJTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TJTest.m; path = ../TJTest.m; sourceTree = "<group>"; };
 		32B50342196109BF00E20602 /* Git Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Git Test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		32B50345196109BF00E20602 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		32B50347196109BF00E20602 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -112,6 +115,8 @@
 		32B5034B196109BF00E20602 /* Git Test */ = {
 			isa = PBXGroup;
 			children = (
+				3282E6B51971EE9A00D81BFF /* TJTest.h */,
+				3282E6B61971EE9A00D81BFF /* TJTest.m */,
 				32B50354196109BF00E20602 /* TJAppDelegate.h */,
 				32B50355196109BF00E20602 /* TJAppDelegate.m */,
 				32B50357196109BF00E20602 /* Main.storyboard */,
@@ -251,6 +256,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				32B5035C196109BF00E20602 /* TJViewController.m in Sources */,
+				3282E6B71971EE9A00D81BFF /* TJTest.m in Sources */,
 				32B50356196109BF00E20602 /* TJAppDelegate.m in Sources */,
 				32B50352196109BF00E20602 /* main.m in Sources */,
 			);
@@ -457,6 +463,7 @@
 				32B50376196109BF00E20602 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		32B50377196109BF00E20602 /* Build configuration list for PBXNativeTarget "Git TestTests" */ = {
 			isa = XCConfigurationList;
@@ -465,6 +472,7 @@
 				32B50379196109BF00E20602 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
